@@ -1,0 +1,1 @@
+open("output/Survey.csv", "w").write(open("input/Survey.csv").read().replace("\xa0", " "))
